@@ -1,4 +1,4 @@
-##Quick Summary: TIM is a fantasic inventory manager, Taleden wrote a super effective tool. The only thing that isn't quick about it is the setup, This takes care of all of that. It automatically applies tim values to a lot of common blocks.
+## Quick Summary: TIM is a fantasic inventory manager, Taleden wrote a super effective tool. The only thing that isn't quick about it is the setup, This takes care of all of that. It automatically applies tim values to a lot of common blocks.
 
 Script Name: TIM Auto-Deploy script
 
