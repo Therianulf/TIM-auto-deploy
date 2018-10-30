@@ -15,9 +15,10 @@ Before You Start:
 
 This script was designed to be ran when a ship is first built, and you want to install TIM. If you just want to save yourself some time, you should be able to run this completely default and save yourself quite a bit of typing. Make sure you don't have any connector or merge blocks attached if you don't want this to effect that grid as well. 
 
-### MAKE SURE YOU/FACTION OWN ALL THE BLOCKS ON THE GRID.
 
 ## Usage:
+
+### MAKE SURE YOU/FACTION OWN ALL THE BLOCKS ON THE GRID.
 
 Copy and paste from start of code to end of code tags into your programming block, OR use the blueprint which will only include these.
 
