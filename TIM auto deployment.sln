@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TIM auto deployment", "TIM auto deployment\TIM auto deployment.csproj", "{2B202976-4F97-45AC-8F95-785AAC2C55B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B202976-4F97-45AC-8F95-785AAC2C55B0}.Debug|x64.ActiveCfg = Debug|x64
+		{2B202976-4F97-45AC-8F95-785AAC2C55B0}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3901E473-73E0-4969-8904-69E0C3BAF3CF}
+	EndGlobalSection
+EndGlobal
