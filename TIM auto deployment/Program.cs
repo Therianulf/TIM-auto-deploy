@@ -110,6 +110,8 @@ namespace IngameScript
         public bool assignAmmo = true;
         //set this to false if you don't want to assign the assembler component array names to the assemblers 
         public bool assignAssemblers = true;
+        //set this to true if you want to assign the assembler the time AUTO field. 
+        public bool assignAssemblersAuto = false;
         //set this to false if you don't want tim to manage your refineries and arcs 
         public bool assignRefineries = true;
         //set this to false if you don't want tim to assign your reactors uranium 
@@ -190,14 +192,31 @@ namespace IngameScript
 
                 if (!masterAssigned)
                 {
-                    assembler.CustomName = "Master assembler " + loopCounter;
+                    
+                    if (assignAssemblersAuto)
+                    {
+                        assembler.CustomName = "Master assembler " + loopCounter + " [TIM AUTO]";
+                    }
+                    else
+                    {
+                        assembler.CustomName = "Master assembler " + loopCounter;
+                    }
                     masterAssigned = true;
                     loopCounter++;
                     continue;
                 }
                 else
                 {
-                    assembler.CustomName = "Slave assembler " + loopCounter;
+
+                    if (assignAssemblersAuto)
+                    {
+                        assembler.CustomName = "Slave assembler " + loopCounter + " [TIM AUTO]";
+                    }
+                    else
+                    {
+                        assembler.CustomName = "Slave assembler " + loopCounter;                        
+                    }
+
                     assembler.CooperativeMode = true;
                     loopCounter++;
                     continue;
