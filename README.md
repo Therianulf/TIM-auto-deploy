@@ -5,7 +5,7 @@ Script Name: TIM Auto-Deploy script
 
 Author: Therian
 
-Version: 0.2
+Version: 0.3
 
 Purpose: To automatically setup TIM on new grids, without having to do 100 lines of data entry.
 
